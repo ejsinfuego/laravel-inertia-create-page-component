@@ -1,0 +1,30 @@
+{
+  "name": "ejs/make-page",
+  "description": "A command line tool to create page component with InertiaJS",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ejs\\MakePage\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ejs\\MakePage\\MakePageInertiaServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Ej Sinfuego",
+      "email": "edzeljohnsinfuego@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev"
+}
